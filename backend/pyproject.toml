@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = "Backend for the personal blog project"
+authors = ["James Glenister <jglen419@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.7"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
